@@ -6,15 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="pwi" />
+        <module name="PWI" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pwi" target="1.8" />
+      <module name="PWI" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PWI" options="-parameters" />
       <module name="pwi" options="-parameters" />
     </option>
   </component>
