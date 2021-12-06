@@ -1,6 +1,5 @@
 package com.pwi.pwi.model;
 
-import com.pwi.pwi.repository.BrandRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.persistence.*;
@@ -10,8 +9,6 @@ import java.util.UUID;
 
 @Entity
 public class Brand {
-    @Autowired
-    private BrandRepository brandRepository;
 
     @Column(nullable = false, updatable = false)
     @Id
@@ -20,13 +17,11 @@ public class Brand {
     @Column
     private String brand_name;
 
+    public Brand() {
+    }
+
     public boolean getBrand_id(UUID brand_id) {//can be used if it exists in db or not
-        //brand type
-        Brand searched_brand_id = brandRepository.getById(brand_id); //returns a brand object
-        if(searched_brand_id==null){
-            return false;
-        }//checks if brand found is empty, if it is return false,means that not found
-        return true;
+       return false;
     }
 
     public String getBrand_name() {

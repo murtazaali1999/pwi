@@ -1,5 +1,10 @@
 package com.pwi.pwi.model;
 
+import com.pwi.pwi.repository.InventoryRepository;
+import net.bytebuddy.build.ToStringPlugin;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
 import javax.persistence.*;
 import java.util.List;
 import java.util.UUID;
@@ -17,6 +22,10 @@ public class Inventory {
 
     @OneToOne//one inventory exists in one warehouse
     private Warehouse warehouse_id;
+
+
+    public Inventory() {
+    }
 
     public Inventory(UUID inventory_id, List<Product> product_ids, Warehouse warehouse_id) {
         this.inventory_id = inventory_id;

@@ -1,6 +1,5 @@
 package com.pwi.pwi.model;
 
-import com.pwi.pwi.repository.OfficeRepository;
 
 import javax.persistence.*;
 import java.util.List;
@@ -11,6 +10,9 @@ public class Office {
     @Column(nullable = false,updatable = false)
     @Id
     private UUID office_id; //final is constant in java
+
+    public Office() {
+    }
 
     public UUID getOffice_id() {
         return office_id;
@@ -37,7 +39,6 @@ public class Office {
     @ManyToOne//offices to company
     private Company company_id; //FK
 
-    private OfficeRepository officeRepository;
 
     public Office(UUID office_id,String office_location, List<Warehouse> warehouse_ids, Company company_id) {
         this.office_id = office_id;

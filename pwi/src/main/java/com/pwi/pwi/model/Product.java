@@ -40,7 +40,10 @@ public class Product {
     @Column
     private int reorder_point; //if a company's specific product reaches this value
 
-    public Product(UUID product_id, String product_name, String product_size, String product_type, List<Inventory> inventory_ids, Brand brand_id,int stock, int aq, int in_transit, int moq, int qpb, int reorder_point) {
+    public Product() {
+    }
+
+    public Product(UUID product_id, String product_name, String product_size, String product_type, List<Inventory> inventory_ids, Brand brand_id, int stock, int aq, int in_transit, int moq, int qpb, int reorder_point) {
         this.product_id = product_id;
         this.product_name = product_name;
         this.product_size = product_size;

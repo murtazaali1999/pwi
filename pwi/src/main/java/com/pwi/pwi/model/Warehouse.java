@@ -15,6 +15,9 @@ public class Warehouse {
     @OneToOne(mappedBy = "warehouse_id")
     private Inventory inventory_id; //one warehouse can have one inventory
 
+    public Warehouse() {
+    }
+
     public Warehouse(Inventory inventory_id) {
         this.inventory_id = inventory_id;
     }

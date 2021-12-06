@@ -16,6 +16,9 @@ public class Company {
     @OneToMany(mappedBy = "company_id")//company to offices
     private List<Office> office_ids;
 
+    public Company() {
+    }
+
     public Company(UUID company_id, String company_name, List<Office> office_ids) {
         this.company_id = company_id;
         this.company_name = company_name;
