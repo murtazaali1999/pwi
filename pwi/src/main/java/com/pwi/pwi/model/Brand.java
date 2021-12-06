@@ -1,5 +1,7 @@
 package com.pwi.pwi.model;
 
+import com.fasterxml.jackson.annotation.JacksonInject;
+
 import javax.persistence.*;
 
 import java.util.List;
@@ -15,6 +17,9 @@ public class Brand {
     @Column
     private String brand_name;
 
+    @OneToMany
+    private List<Product> product_ids;
+
     public Brand() {
     }
 
@@ -29,9 +34,6 @@ public class Brand {
     public List<Product> getProduct_ids() {
         return product_ids;
     }
-
-    @OneToMany(mappedBy = "brand_id",targetEntity = Product.class)
-    private List<Product> product_ids;
 
     public Brand(UUID brand_id, String brand_name, List<Product> product_ids) {
         this.brand_id = brand_id;

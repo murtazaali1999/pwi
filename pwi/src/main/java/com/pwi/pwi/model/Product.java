@@ -18,12 +18,12 @@ public class Product {
     @Column
     private String product_type;
 
-    @ManyToMany
-    private List<Inventory> inventory_ids; //a product can be in many inventories
+//    @ManyToMany
+//    @JoinColumn(name = "Inventory_Product")
+//    private List<Inventory> inventory_ids; //a product can be in many inventories
 
-    @OneToOne()
+    @OneToOne
     private Brand brand_id; //a product can belong to one brand
-
 
     @Column
     private int stock; //total number of products, present physically
@@ -48,7 +48,6 @@ public class Product {
         this.product_name = product_name;
         this.product_size = product_size;
         this.product_type = product_type;
-        this.inventory_ids = inventory_ids;
         this.brand_id = brand_id;
         this.stock = stock;
         this.aq = aq;
@@ -59,10 +58,6 @@ public class Product {
     }
 
     //setter
-    public void setInventory_ids(List<Inventory> inventory_ids) {
-        this.inventory_ids = inventory_ids;
-    }
-
     public void setProduct_type(String product_type) {
         this.product_type = product_type;
     }

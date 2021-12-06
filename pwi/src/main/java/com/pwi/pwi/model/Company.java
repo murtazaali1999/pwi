@@ -8,21 +8,16 @@ import java.util.UUID;
 public class Company {
 
     @Column(nullable = false, updatable = false)
+    @GeneratedValue(generator = "UUID")
     @Id
     private UUID company_id;
+
     @Column
     private String company_name;
-
-    @OneToMany(mappedBy = "company_id")//company to offices
-    private List<Office> office_ids;
-
-    public Company() {
-    }
 
     public Company(UUID company_id, String company_name, List<Office> office_ids) {
         this.company_id = company_id;
         this.company_name = company_name;
-        this.office_ids = office_ids;
     }
 
     //setters
@@ -34,8 +29,12 @@ public class Company {
         this.company_name = company_name;
     }
 
-    public void setOffice_ids(List<Office> office_ids) {
-        this.office_ids = office_ids;
+    //getters
+    public UUID getCompany_id() {
+        return company_id;
     }
 
+    public String getCompany_name() {
+        return company_name;
+    }
 }

@@ -13,6 +13,7 @@ public class Inventory {
     private UUID inventory_id;
 
     @ManyToMany
+    @JoinColumn(name = "Inventory_Product")
     private List<Product> product_ids;
 
     @OneToOne//one inventory exists in one warehouse
