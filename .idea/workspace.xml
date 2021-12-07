@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dffa87db-6fd5-4bc3-a327-7352a1b0ba48" name="Changes" comment="InventoryProduct MCSR">
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_12_08_PM_[Changes]/shelved.patch" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_07_12_2021_12_08_PM__Changes_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/InventoryProduct.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/BrandService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/CompanyService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/CompanyServiceImplementation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/InventoryService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/OfficeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/OfficeServiceImplementation.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/ProductService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/WarehouseService.class" afterDir="false" />
-    </list>
+    <list default="true" id="dffa87db-6fd5-4bc3-a327-7352a1b0ba48" name="Changes" comment="InventoryProduct MCSR" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -166,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638870205210</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="InventoryProduct MCSR">
+      <created>1638870251668</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1638870251668</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
