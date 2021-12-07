@@ -13,13 +13,16 @@ public class CompanyServiceImplementation implements CompanyService {
     @Autowired
     private CompanyRepository companyRepository;
 
-
+    //saves a new company
     public Company saveNewCompany(Company company){
      return companyRepository.save(company);
     }
+
+    //gets all companies
     public List<Company> getAllCompanies(){
         List<Company> listCompanies = companyRepository.findAll();
         System.out.println(listCompanies);
         return listCompanies;
     } //need to convert before using it
+
 }

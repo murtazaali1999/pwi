@@ -9,6 +9,7 @@ public class Product {
 
     @Column(nullable = false, updatable = false)
     @Id
+    @GeneratedValue(generator = "UUID")
     private UUID product_id;
     @Column
     private String product_name;

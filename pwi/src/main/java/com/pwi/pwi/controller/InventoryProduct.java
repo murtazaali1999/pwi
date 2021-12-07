@@ -1,4 +1,7 @@
-package com.pwi.pwi.model;
+package com.pwi.pwi.controller;
+
+import com.pwi.pwi.model.Inventory;
+import com.pwi.pwi.model.Product;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -9,7 +12,7 @@ import java.util.UUID;
 public class InventoryProduct implements Serializable {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(generator = "UUID")
     private UUID id;
 
     @ManyToOne(fetch = FetchType.LAZY, optional = false)

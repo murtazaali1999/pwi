@@ -4,7 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dffa87db-6fd5-4bc3-a327-7352a1b0ba48" name="Changes" comment="InventoryProduct MCSR" />
+    <list default="true" id="dffa87db-6fd5-4bc3-a327-7352a1b0ba48" name="Changes" comment="InventoryProduct MCSR">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/InventoryProductServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PWI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PWI.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/InventoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/InventoryProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/InventoryProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/OfficeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/OfficeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Brand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Inventory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/InventoryProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/InventoryProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/BrandRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/BrandRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/InventoryProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/InventoryProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/InventoryRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/ProductRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/ProductRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/WarehouseRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/WarehouseRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/BrandServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/BrandServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/CompanyServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/CompanyServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/InventoryProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/InventoryProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/InventoryProductServiceImplementation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/InventoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/InventoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/InventoryServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/InventoryServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/OfficeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/OfficeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/OfficeServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/OfficeServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/ProductServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/ProductServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/WarehouseServiceImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/WarehouseServiceImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/controller/InventoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/controller/InventoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/controller/OfficeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/controller/OfficeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Inventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/InventoryProduct.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Office.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Office.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Warehouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Warehouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/repository/BrandRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/repository/BrandRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/repository/InventoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/repository/InventoryRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/repository/ProductRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/repository/WarehouseRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/repository/WarehouseRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/CompanyServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/CompanyServiceImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/OfficeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/OfficeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/OfficeServiceImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/service/OfficeServiceImplementation.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638870251668</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="InventoryProduct MCSR">
+      <created>1638870568552</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638870568552</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,5 +231,15 @@
     <MESSAGE value="Running Update" />
     <MESSAGE value="InventoryProduct MCSR" />
     <option name="LAST_COMMIT_MESSAGE" value="InventoryProduct MCSR" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.beans.factory.UnsatisfiedDependencyException" package="org.springframework.beans.factory" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

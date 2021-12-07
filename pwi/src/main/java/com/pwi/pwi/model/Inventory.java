@@ -7,21 +7,19 @@ import java.util.UUID;
 @Entity
 public class Inventory {
 
-    @Column(nullable = false, updatable = false)
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(generator = "UUID")
     @Id
     private UUID inventory_id;
 
     @OneToOne//one inventory exists in one warehouse
     private Warehouse warehouse_id;
 
-    public Inventory() {
-    }
-
     public Inventory(UUID inventory_id, Warehouse warehouse_id) {
         this.inventory_id = inventory_id;
         this.warehouse_id = warehouse_id;
     }
+
+    public Inventory() {}
 
     //setters
     public void setWarehouse_id(Warehouse warehouse_id) {
@@ -33,12 +31,8 @@ public class Inventory {
     }
 
     //getters
-    public UUID getInventory_id() {
-        return inventory_id;
-    }
+    public UUID getInventory_id() { return inventory_id; }
 
-    public Warehouse getWarehouse_id() {
-        return warehouse_id;
-    }
+    public Warehouse getWarehouse_id() { return warehouse_id; }
 
 }

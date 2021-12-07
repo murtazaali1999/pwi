@@ -12,6 +12,7 @@ public class Brand {
 
     @Column(nullable = false, updatable = false)
     @Id
+    @GeneratedValue(generator = "UUID")
     private UUID brand_id;
 
     @Column

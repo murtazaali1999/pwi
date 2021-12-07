@@ -6,7 +6,7 @@ import java.util.UUID;
 @Entity
 public class Warehouse {
     @Column(nullable = false, updatable = false)
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(generator = "UUID")
     @Id
     private UUID warehouse_id;
 

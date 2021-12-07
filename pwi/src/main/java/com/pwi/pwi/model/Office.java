@@ -9,7 +9,7 @@ import java.util.UUID;
 public class Office {
 
     @Column(nullable = false,updatable = false)
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(generator = "UUID")
     @Id
     private UUID office_id; //final is constant in java
 
