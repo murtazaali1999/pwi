@@ -16,28 +16,20 @@ public class Office {
     @Column
     private String office_location;
 
-    @OneToMany(cascade = CascadeType.ALL)//office to warehouses
-    @JoinTable(name="Office_Warehouse")
-    private List<Warehouse> warehouse_ids;
-
     @ManyToOne(cascade = CascadeType.ALL) //offices to company
-    @JoinTable(name = "Office_Company")
     private Company company_id; //FK
 
+    public Office() {
+    }
 
-    public Office(UUID office_id,String office_location, List<Warehouse> warehouse_ids, Company company_id) {
+    public Office(UUID office_id, String office_location, Company company_id) {
         this.office_id = office_id;
         this.office_location = office_location;
-        this.warehouse_ids = warehouse_ids;
         this.company_id = company_id;
     }
 
     public void setOffice_id(UUID office_id){
         this.office_id = office_id;
-    }
-
-    public void setWarehouse_ids(List<Warehouse> warehouse_ids){
-        this.warehouse_ids = warehouse_ids;
     }
 
     public void setOffice_location(String office_location) {
@@ -55,10 +47,6 @@ public class Office {
 
     public String getOffice_location() {
         return office_location;
-    }
-
-    public List<Warehouse> getWarehouse_ids() {
-        return warehouse_ids;
     }
 
     public Company getCompany_id() {

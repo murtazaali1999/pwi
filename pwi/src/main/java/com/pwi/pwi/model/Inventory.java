@@ -12,30 +12,33 @@ public class Inventory {
     @Id
     private UUID inventory_id;
 
-    @ManyToMany
-    @JoinColumn(name = "Inventory_Product")
-    private List<Product> product_ids;
-
     @OneToOne//one inventory exists in one warehouse
     private Warehouse warehouse_id;
-
 
     public Inventory() {
     }
 
-    public Inventory(UUID inventory_id, List<Product> product_ids, Warehouse warehouse_id) {
+    public Inventory(UUID inventory_id, Warehouse warehouse_id) {
         this.inventory_id = inventory_id;
-        this.product_ids = product_ids;
         this.warehouse_id = warehouse_id;
     }
 
-    public void setProduct_ids(List<Product> product_ids) {
-        this.product_ids = product_ids;
+    //setters
+    public void setWarehouse_id(Warehouse warehouse_id) {
+        this.warehouse_id = warehouse_id;
     }
 
     public void setInventory_id(UUID inventory_id) {
         this.inventory_id = inventory_id;
     }
 
+    //getters
+    public UUID getInventory_id() {
+        return inventory_id;
+    }
+
+    public Warehouse getWarehouse_id() {
+        return warehouse_id;
+    }
 
 }

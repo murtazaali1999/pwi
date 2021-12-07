@@ -18,11 +18,21 @@ public class Brand {
     private String brand_name;
 
     @OneToMany
+    @JoinTable(name = "Product_Brand",
+    joinColumns = @JoinColumn(name = "product_id"),
+    inverseJoinColumns = @JoinColumn(name="brand_id"))
     private List<Product> product_ids;
 
     public Brand() {
     }
 
+    public Brand(UUID brand_id, String brand_name, List<Product> product_ids) {
+        this.brand_id = brand_id;
+        this.brand_name = brand_name;
+        this.product_ids = product_ids;
+    }
+
+    //getters
     public boolean getBrand_id(UUID brand_id) {//can be used if it exists in db or not
        return false;
     }
@@ -35,12 +45,7 @@ public class Brand {
         return product_ids;
     }
 
-    public Brand(UUID brand_id, String brand_name, List<Product> product_ids) {
-        this.brand_id = brand_id;
-        this.brand_name = brand_name;
-        this.product_ids = product_ids;
-    }
-
+    //setters
     public void setBrand_id(UUID brand_id) {
         this.brand_id = brand_id;
     }

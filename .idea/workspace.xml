@@ -5,23 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dffa87db-6fd5-4bc3-a327-7352a1b0ba48" name="Changes" comment="Running Update">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_h2database_h2_1_4_200.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/CompanyServiceImplementation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/PWI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PWI.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/InventoryProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/InventoryProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/InventoryProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/InventoryProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/CompanyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/controller/CompanyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Brand.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Brand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Company.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Inventory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Office.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/model/Warehouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/CompanyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/repository/CompanyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/CompanyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/java/com/pwi/pwi/service/CompanyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pwi/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/pwi/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/controller/CompanyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/controller/CompanyController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Brand.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Brand.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Company.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Company.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Inventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Office.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Office.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Warehouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/model/Warehouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/pwi/pwi/repository/CompanyRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/pwi/pwi/repository/CompanyRepository.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +35,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -171,7 +174,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Running Update" />

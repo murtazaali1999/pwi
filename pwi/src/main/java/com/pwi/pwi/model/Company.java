@@ -15,6 +15,10 @@ public class Company {
     @Column
     private String company_name;
 
+    public Company(){
+
+    }
+
     public Company(UUID company_id, String company_name, List<Office> office_ids) {
         this.company_id = company_id;
         this.company_name = company_name;

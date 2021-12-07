@@ -13,14 +13,29 @@ public class Warehouse {
     @ManyToOne//warehouses to office
     private Office office_id; //one office to many warehouses
 
-    @OneToOne(mappedBy = "warehouse_id")
-    private Inventory inventory_id; //one warehouse can have one inventory
-
-    public Warehouse(Inventory inventory_id) {
-        this.inventory_id = inventory_id;
+    public Warehouse() {
     }
 
-    //setters
-    
-    public void setInventory_id(Inventory inventory_id) { this.inventory_id = inventory_id; }
+    public Warehouse(UUID warehouse_id, Office office_id) {
+        this.warehouse_id = warehouse_id;
+        this.office_id = office_id;
+    }
+
+    //Setters
+    public void setWarehouse_id(UUID warehouse_id) {
+        this.warehouse_id = warehouse_id;
+    }
+
+    public void setOffice_id(Office office_id) {
+        this.office_id = office_id;
+    }
+
+    //getters
+    public UUID getWarehouse_id() {
+        return warehouse_id;
+    }
+
+    public Office getOffice_id() {
+        return office_id;
+    }
 }
